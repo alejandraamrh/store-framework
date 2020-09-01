@@ -23,7 +23,7 @@
     background-color: #edcfd1;
 }
 
-.infoCardContainer {
+.infoCardContainer  :global(.vtex-imageUrl) {
     max-width: 1260px;
     margin: auto;
     padding: 0;
