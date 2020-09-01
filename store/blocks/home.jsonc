@@ -27,6 +27,7 @@
   },
   "info-card#button-left": {
     "props": {
+      "isFullModeStyle": false,
       "headline": "Shining chrome",
       "callToActionMode": "link",
       "callToActionText": "Go to Collection",
