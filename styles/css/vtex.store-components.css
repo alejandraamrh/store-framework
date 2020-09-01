@@ -29,11 +29,7 @@
     padding: 0
 }
 
-.infoCardContainer--vintage  {
-    max-width: 1260px;
-    margin: auto;
-    padding: 0
-}
+
 .infoCardContainer--metal{
     background-color: #e1e1e1;
 }
