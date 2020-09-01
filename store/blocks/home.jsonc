@@ -28,12 +28,12 @@
   "info-card#button-left": {
     "props": {
       "isFullModeStyle": false,
-      "headline": "Shining chrome",
-      "callToActionMode": "link",
-      "callToActionText": "Go to Collection",
+      "textPosition": "left",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Shining chrome",
       "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
-      "textPosition": "left"
+      "callToActionMode": "link",
+      "callToActionText": "Go to Collection"
     }
   }
 }
