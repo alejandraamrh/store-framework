@@ -47,7 +47,7 @@
       "product-quantity"
     ]
   },
-  "stack-layout#brand": {
+  "stack-layout": {
     "children": [
       "product-images",
       "product-brand"
@@ -63,7 +63,7 @@
       "props":{
         "initialSelection":null,
         "showValueForVariation":"image",
-        "showVariationsErrorMessage":true
+        "showVariationsErrorMessage":false
       }
     }
 
