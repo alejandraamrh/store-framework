@@ -42,7 +42,7 @@
     }
   }, 
   "responsive-layout.desktop#desktop": {
-    "children": ["image#desktop"]
+    "children": ["image#desktop","rich-text#desktop"]
   },
   "responsive-layout.mobile#mobile": {
     "children": ["image#mobile","rich-text#mobile"]
@@ -50,6 +50,13 @@
   "rich-text#mobile": {
     "props": {
       "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#desktop": {
+    "props": {
+      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
