@@ -1,8 +1,8 @@
 {
     "vtex.menu@2.x:menu#categories": {
       "children": [
-        "menu-item#major-appliances",
-        "menu-item#small-appliances",
+        "menu-item#major",
+        "menu-item#small",
         "menu-item#electronics"
       ],
   
@@ -57,18 +57,5 @@
         "orientation": "vertical"
       }
   },
-  "menu-item#major-appliances": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
-  }
+ 
 }
