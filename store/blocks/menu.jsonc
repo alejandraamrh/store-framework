@@ -1,8 +1,8 @@
 {
     "vtex.menu@2.x:menu#categories": {
       "children": [
-        "menu-item#major",
-        "menu-item#small",
+        "menu-item#major-appliances",
+        "menu-item#small-appliances",
         "menu-item#electronics"
       ],
   
@@ -13,8 +13,7 @@
 
   "vtex.menu@2.x:submenu#major":{
     "children":[
-      "vtex.menu@2.x:menu#major"
-    ]
+      "vtex.menu@2.x:menu#major"]
   },
   "vtex.menu@2.x:menu#major":{
     "children": [
@@ -56,6 +55,5 @@
       "props":{
         "orientation": "vertical"
       }
-  },
- 
+  }
 }
