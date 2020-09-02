@@ -13,8 +13,7 @@
 
   "vtex.menu@2.x:submenu#major":{
     "children":[
-      "vtex.menu@2.x:menu#major",
-      "menu-item#major-appliances"
+      "vtex.menu@2.x:menu#major"
     ]
   },
   "vtex.menu@2.x:menu#major":{
@@ -57,7 +56,19 @@
       "props":{
         "orientation": "vertical"
       }
+  },
+  "menu-item#major-appliances": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shop"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#major"] // Defining a submenu
   }
-  
-  
 }
